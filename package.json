@@ -18,8 +18,6 @@
   "homepage": "https://github.com/nekoneko-wanwan/utility",
   "devDependencies": {
     "gulp": "^3.8.11",
-    "gulp-if": "^1.2.5",
-    "gulp-markdown-pdf": "^2.0.1",
-    "minimist": "^1.1.1"
+    "gulp-markdown-pdf": "^2.0.1"
   }
 }

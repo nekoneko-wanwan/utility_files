@@ -1,8 +1,6 @@
 /* require */
 var gulp        = require('gulp');
-var gulpif      = require('gulp-if');
 var markdownpdf = require('gulp-markdown-pdf');
-var minimist    = require('minimist');
 
 /* markdown -> pdf */
 gulp.task('pdf', function () {

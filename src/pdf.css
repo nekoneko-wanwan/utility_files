@@ -5,7 +5,7 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: white;
-  padding: 30px; }
+  padding: 20px; }
 
 body > *:first-child {
   margin-top: 0 !important; }
@@ -34,9 +34,6 @@ h1, h2, h3, h4, h5, h6 {
   cursor: text;
   position: relative; }
 
-h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
-  background: url("../../images/modules/styleguide/para.png") no-repeat 10px center;
-  text-decoration: none; }
 
 h1 tt, h1 code {
   font-size: inherit; }
@@ -61,8 +58,7 @@ h1 {
   color: black; }
 
 h2 {
-  font-size: 24px;
-  border-bottom: 1px solid #cccccc;
+  font-size: 20px;
   color: black; }
 
 h3 {
@@ -152,6 +148,7 @@ blockquote {
     margin-bottom: 0; }
 
 table {
+  table-layout: fixed;
   width: 100%;
   padding: 0; }
   table tr {
@@ -171,7 +168,7 @@ table {
       border: 1px solid #cccccc;
       text-align: left;
       margin: 0;
-      padding: 6px 13px; }
+      padding: 4px 10px; }
 table td:first-child {
   width: 8%;
 }
