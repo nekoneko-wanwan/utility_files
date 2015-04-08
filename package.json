@@ -1,0 +1,25 @@
+{
+  "name": "utility",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nekoneko-wanwan/utility.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nekoneko-wanwan/utility/issues"
+  },
+  "homepage": "https://github.com/nekoneko-wanwan/utility",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-if": "^1.2.5",
+    "gulp-markdown-pdf": "^2.0.1",
+    "minimist": "^1.1.1"
+  }
+}
